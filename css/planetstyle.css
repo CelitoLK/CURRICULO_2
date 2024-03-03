@@ -1,0 +1,417 @@
+body {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    
+    border-radius: 50%;
+    
+}
+
+.sun img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.earth-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earthOrbit 20s linear infinite;
+}
+
+.earth {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+} 
+
+.earth-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+.earth2-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth2Orbit 19s linear infinite;
+}
+
+.earth2 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth2-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+.earth3-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth3Orbit 18s linear infinite;
+}
+
+.earth3 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth3-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+
+.earth4-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth4Orbit 17s linear infinite;
+}
+
+.earth4 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth4-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+
+.earth5-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth5Orbit 16s linear infinite;
+}
+
+.earth5 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth5-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+.earth6-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth6Orbit 15s linear infinite;
+}
+
+.earth6 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth6-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+
+.earth7-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth7Orbit 14s linear infinite;
+}
+
+.earth7 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth7-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+
+.earth8-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth8Orbit 19.5s linear infinite;
+}
+
+.earth8 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth8-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+.earth9-orbit {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    border: 0px dashed #00f;
+    border-radius: 50%;
+    animation: earth9Orbit 21s linear infinite;
+}
+
+.earth9 {
+    position: absolute;
+    top: 96.5%; /* Posiciona a Terra na base da órbita */
+    left: 50%;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+
+.earth9-orbit img{
+    width: 15%;
+    height: 15%;
+}
+
+
+
+/*
+.moon-orbit {
+    position: absolute;
+    top: 100%;
+    left: 53.4%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    border: 0px dashed #ccc;
+    border-radius: 50%;
+    animation: moonOrbit 2s linear infinite;
+}
+
+.moon {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform-origin: center bottom;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+}*/
+
+@keyframes earthOrbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth2Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth3Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth4Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth5Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth6Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth7Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth8Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes earth9Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*
+@keyframes moonOrbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+*/
